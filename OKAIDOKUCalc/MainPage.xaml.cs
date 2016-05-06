@@ -26,5 +26,10 @@ namespace OKAIDOKUCalc
         {
             this.InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+            txtTest.Text = "Hello world!!";
+        }
     }
 }
